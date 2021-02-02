@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQExamples2</title>
 </head>
+
 <body>
     <a href="http://jquery.com/">jQuery</a>
-    <script  src="https://code.jquery.com/jquery-3.2.1.js"  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script>
-     $(document).ready(function() {
-     $("a").click(function( event ) {
-            alert( "The link will no longer take you to jquery.com" );
-            event.preventDefault();
+        $(document).ready(function () {
+            $("a").click(function (event) {
+                alert("The link will no longer take you to jquery.com");
+                event.preventDefault();
+            });
         });
-    });
 
     </script>
 </body>
+
 </html>
