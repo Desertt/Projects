@@ -1,0 +1,28 @@
+/*Pseudo Element*/
+p::first-line{
+    font-weight: bold;
+    color:brown;
+    word-spacing:2px;
+    letter-spacing: 1px;
+}   
+/*Pseudo Class*/
+
+ul li:first-child{
+    background-color: red;
+}
+
+p.about::first-line{
+    color:green;
+}
+
+p::first-letter{
+    font-size: 48px;
+}
+
+p::before{
+    content:"";  
+    background-color: greenyellow;
+    color: black;
+    display:block;
+    padding :10px;
+}
