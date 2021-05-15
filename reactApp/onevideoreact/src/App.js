@@ -15,17 +15,17 @@ class App extends Component {
         {
           id: 1,
           name: "Kazım Miraç DAĞTEKİN",
-          email: "dagtekinkazim@gmail.com"
+          email: "kmd@gmail.com"
         },
         {
           id: 2,
           name: "Mustafa DAĞTEKİN",
-          email: "mustafa@gmail.com"
+          email: "mustafadagtekin@gmail.com"
         },
         {
           id: 3,
           name: "Merve DAĞTEKİN",
-          email: "mrvmstf@gmail.com"
+          email: "mrv@gmail.com"
         }
       ]
     };
